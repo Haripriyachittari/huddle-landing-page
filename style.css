@@ -1,0 +1,147 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    
+}
+.container{
+    margin:20px;
+    height: 100vh;
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    height: 90%;
+}
+.header{
+    margin:20px;
+    padding:10px;
+}
+.main{
+    display: flex;
+    margin:50px;
+
+}
+.info{
+    margin:30px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    color:aliceblue;
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+p{
+    color:aliceblue;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6em;
+    margin:30px 0;
+
+}
+button{
+    margin-top:30px;
+    font-family: 'Poppins', sans-serif;
+    color:hsl(257, 40%, 49%);
+    background-color: white;
+    padding:10px 30px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    width:50%;
+    border:none;
+}
+button:hover{
+    background-color:hsl(257, 40%, 20%);
+    color:white;
+    transform: translateY(-15%);
+    
+}
+#image{
+ max-width: 100%;
+    height:auto;
+    
+}
+#header-logo
+{
+    width:13rem;
+    height: auto;
+}
+.footer{
+ 
+  float :right;
+}
+.fa-stack
+{
+    color:white;
+}
+@media screen and (max-width:768px)
+{
+    .main{
+        flex-direction: column;
+        margin:20px;
+        padding:10px;
+        
+    }
+    .info{
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #header-logo
+{
+    width:10rem;
+    height: auto;
+}
+   button{
+    width:75%;
+}
+.footer{
+ float: none;
+    text-align: center;
+}
+
+}
+@media screen and (max-width:1100px)
+{
+    .main{
+        flex-direction: column;
+        margin:20px;
+        padding:10px;
+        
+    }
+    .info{
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #header-logo
+{
+    width:10rem;
+    height: auto;
+}
+   button{
+    width:75%;
+}
+.footer{
+ float: none;
+    text-align: center;
+}
+
+}
